@@ -5,13 +5,16 @@
 			<div class="col-xs-12">
 				<div class="col-xs-6 word_blue_2"><h2>题目列表</h2></div>
 				<div class="col-xs-6 word_blue_2 word_height_mid_2 word_pull_right_2"><h4>成绩查询>></h4></div>
-				<div class="col-xs-12 heigh_be_close_kill_2"><hr /></div>
+				<div class="col-xs-12 heigh_be_close_kill_2"><hr class="divider" /></div>
 			</div>
-
-
-			<div>
-				
-			</div>
+			<% (1..4).each do|int| %>
+				<div class="col-xs-12">
+					<div>
+						<hr />
+						<hr />
+					</div>
+				</div>
+			<% end %>
 		</div>
 		<%= render 'bottom' %>
 	</div>

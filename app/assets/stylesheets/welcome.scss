@@ -49,7 +49,6 @@
 }
 .gray{
 	background-color: #ebebeb;
-	padding:0px 60px 0 60px;
 }
 .white{
 	background-color: white;
@@ -74,4 +73,24 @@
 }
 .pic1{
 	width:100%;
+}
+.boxbg{
+	background :url(01_03.png) no-repeat;
+	background-size:50% 50%;
+	font-size: 40px;
+	color:white;
+	padding-bottom: 10px;
+	float:right;
+}
+.videotext{
+	font-size: 25px;
+	color:#5bcbdc;
+}
+.more{
+	text-align: right;
+	font-size: 15px;
+	color:#5bcbdc;
+}
+.vidoes_topm{
+	margin-top: 15px;
 }

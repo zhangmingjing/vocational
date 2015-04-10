@@ -1,30 +1,27 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.body1{
+	background-color: #ebebeb;
+}
+.backg{
+	background-color: #5bcbdc;
+	padding: 5px 50px 5px 50px;
+	.photo{
+	width: 100%;
+	height: 100%;
 
-.index-topbar-wrapper{
-	height: 80px;
-	background:#5bcbdc;
-}
-.logo {
-    float: left;
-}
-.photo{
-	width:100%;
-	padding-left: 60px;
-}
-.word{
-	color: white;
-}
-.register{
-	padding-top: 8px;
-	color: white;
-	text-align: right;
-	line-height: 18px;
-	height: 18px;
-	padding-right: 85px;
-}
-.search{
-	float: right;
-	padding-top: 3px;
+	}
+	.center1{
+		text-align: right;
+	}
+	.color1{
+		color: white;
+	}
+	.color2{
+		color: #5bcbdc;
+	}
+	.search1{
+		background-color:  #ddf8fc;
+	}
 }

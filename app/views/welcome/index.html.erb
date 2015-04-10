@@ -1,17 +1,22 @@
-<div class="index-topbar-wrapper">
-<div class="logo">
-  <%= image_tag "logo.png" , class:"photo "%>
-</div>
-<div class="register">
-  <span><a href="#" class="word">登录</a></span> |
-  <span><a href="#" class="word">注册</a></span>
-</div>
-<div class="search">
-      <form class="navbar-form" role="search">
-        <div class="form-group" id="scbar">
-
-        </div>
-      </form>
-</div>
-  
-</div>
+  <!-- 导航栏代码
+  ================================================== -->
+ <nav class="navbar navbar-fixed-top backg">
+        <div class="row">
+            <div class="col-xs-6"><%= image_tag "head1.png", class:"photo" %></div>
+            <div class="col-xs-6">
+                    <div class="center1">
+                      <a class="color1" href="#">登录 |</a><a class="color1" href="#"> 注册</a>
+                      <form class="form-inline">
+		  <div class="form-group">
+		    <label class="sr-only" for="exampleInputAmount">Search</label>
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="Search">
+		      <div class="input-group-addon backg1"><span></span></div>
+		    </div>
+		  </div>
+		  
+		</form>
+                    </div>
+            </div>
+        </div> 
+ </nav>

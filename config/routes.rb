@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get 'welcome/test_4_1'
   get 'welcome/test_4_2'
+  get 'welcome/test_5_1'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -6,6 +6,10 @@ class WelcomeController < ApplicationController
   
   end
 
+  def test_5_1
+    
+  end
+
   def test_4_1
   	@whole={
   		"1"=>{

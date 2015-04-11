@@ -2,6 +2,10 @@ class WelcomeController < ApplicationController
   def index
   end
 
+  def test_4_2
+  
+  end
+
   def test_4_1
   	@whole={
   		"1"=>{

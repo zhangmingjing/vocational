@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   get '/teacher_6' => 'welcome#teacher_6'
+  get '/_navbar' => 'welcome#_navbar'
   root 'welcome#index'
 
   # Example of regular route:

@@ -2,17 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.index-topbar-wrapper{
-	width: 100%;
-	height: 80px;
-	background:#5bcbdc;
-}
-.logo {
-    float: left;
-}
+
 .photo{
-	height: 100%;
-	padding-left: 60px;
+	width: 100%;
+	padding-left: 55px;
 }
 .word{
 	color: white;
@@ -23,24 +16,34 @@
 	text-align: right;
 	line-height: 18px;
 	height: 18px;
-	padding-right: 85px;
+	padding-right: 70px;
 }
-.search{
-	float: right;
-	padding-top: 15px;
-	padding-right: 85px;
+.division{
+	height:5px;
+	background-color: white;
 }
-#scbar{
-	height: 25px;
-	background: none repeat scroll 0% 0% #FFF;
+.gray{
+	background-color: #ebebeb;
+	padding:0px 60px 0 60px;
 }
-#scbar_txt{
-	border: medium none;
-	width: 135px;
+.white{
+	background-color: white;
 }
-#scbar_bn{
-	width: 25px;
-	height: 25px;
-	opacity: 0.5;
-	margin-top: 5px;	
+.divider{
+	margin:5px; 
+	border-color: #ebebeb;
+	border-width: 2px;
+}
+.footer{
+	padding:30px 0 30px 0;
+}
+.center1{
+	text-align: center;
+}
+.footerfont_1{
+	color:#848484;
+	font-size: 18px;
+}
+.footerfont_2{
+	color:#848484;
 }

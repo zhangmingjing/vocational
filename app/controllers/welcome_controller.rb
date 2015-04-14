@@ -1,4 +1,35 @@
-class WelcomeController < ApplicationController
+class WelcomeController< ApplicationController
   def index
+  	@control=
+  	{
+  		"1"=>{
+  			text:"网络设备维护",
+                     videomenu:{
+                      "1"=>{picture:"01_04.png",
+                                title:"网络设备维护第1集",
+                                futitle:"维护的目的是保证设备处于最佳运行状态,满足业务运行的需求...",},
+                      "2"=>{picture:"01_05.png",
+                                title:"网络设备维护第2集",
+                                futitle:"维护的目的是保证设备处于最佳运行状态,满足业务运行的需求...",},
+                      "3"=>{picture:"01_06.png",
+                                title:"网络设备维护第3集",
+                                futitle:"维护的目的是保证设备处于最佳运行状态,满足业务运行的需求...",},
+                     },
+  			},
+  		"2"=>{
+  			text:"网络优化",
+                      videomenu:{
+                       "1"=>{picture:"01_07.png",
+                                title:"网络优化第1集",
+                                futitle:"维护的目的是保证设备处于最佳运行状态,满足业务运行的需求...",},
+                      "2"=>{picture:"01_08.png",
+                                title:"网络优化第2集",
+                                futitle:"维护的目的是保证设备处于最佳运行状态,满足业务运行的需求...",},
+                      "3"=>{picture:"01_09.png",
+                                title:"网络优化第3集",
+                                futitle:"维护的目的是保证设备处于最佳运行状态,满足业务运行的需求...",},
+                     },
+  			},
+  	}
   end
 end

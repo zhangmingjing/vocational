@@ -55,4 +55,42 @@
 	color:#848484;
 }
 .pic1{width: 100%;}
+.more{
+	text-align: right;
+	color:#5bcbdc;
+}
+.vidoes_topm{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.videotext{
+	color:#5bcbdc;
+	font-size: 27px;
+	position:relative; 
+    	left:-50px; 
 
+}
+.boxbg{
+	background:url(01_03.png) no-repeat;
+	background-size: 40%;
+	width:40px;
+	height:40px; 
+	font-size: 27px;
+	color:white;
+	position:relative; 
+    	left:20px; 
+
+}
+.video_img{
+	width:100%;
+}
+.video_title{
+	color:black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.video_futitle{
+	color: #848484;
+	font-size: 14px;
+	margin-top: 5px;
+}

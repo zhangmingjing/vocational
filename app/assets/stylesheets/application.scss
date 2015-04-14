@@ -10,10 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require mediaelement_rails
+ * and optionally:
+ *= require mediaelement_rails/mejs-skins
  *= require_tree .
  *= require_self
  */
-@import "a";
+@import "fight";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 body{

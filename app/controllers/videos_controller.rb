@@ -1,23 +1,20 @@
 class VideosController < ApplicationController
-    def new
-      @video = Video.new
-    end
-    def create
-      @video = Video.new(video_params)
-
-      @video.save
-      redirect_to video_path@video
-    end
-    def index
-      @videos = Video.all
+  def create
+    @course = Course.find(params[:course_id])
+    @video = @course.videos.create(video_params)
+    redirect_to course_path(@course)
+  end
+  def index
+    @course = Course.find(params[:course_id])
+    @video = @course.videos.all
+  end
+  
+    def show
+      @course = Course.find(params[:course_id])
       
     end
-    def show
-        @video = Video.find(params[:id])
-    end
- 
-    private
+  private
     def video_params
-      params.require(:video).permit(:title, :text)
+      params.require(:video).permit(:vname, :body)
     end
 end

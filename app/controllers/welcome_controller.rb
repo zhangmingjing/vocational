@@ -6,6 +6,10 @@ class WelcomeController < ApplicationController
   
   end
 
+  def show
+    
+  end
+
   def test_5_1
     
   end

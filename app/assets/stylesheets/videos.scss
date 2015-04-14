@@ -1,0 +1,88 @@
+// Place all the styles related to the videos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.video{
+	.photo{
+	height: 100%;
+	width: 100%;
+	
+	};
+	.backg1{
+		margin: 0 20px 0 20px;
+		background-color: #ffffff;
+	}
+	.backg2{
+		padding: 10px 10px 10px 10px;
+		background-color: #f2fdff;
+	}
+	.button1{
+		font-size: 15px;
+		height: 35px;
+		padding: 5px 15px 5px 15px;
+		margin: 5px 0 5px 0;
+		color: white;
+		background-color: #5bcbdc;
+		border: thin none;
+	}
+	.play1{
+		padding-bottom: 4px;
+	}
+	.photo1{
+	height: 23px;
+	width: 23px;
+	}
+	.cent1{
+		text-align: right;
+	}
+	.divider{
+		margin: 0 0 0 0;
+	}
+	.txt1{
+		font-size: 25px;
+		margin: 0 0 1px 0;
+		color: #5bcbdc;
+		border-style: none none solid none;
+	}
+	.p1{
+		border-style: none none solid none;
+		border-width: 1px;
+		border-color: #cdcdcd;
+
+	}
+	.p2{
+		border-style: none none dashed none;
+		border-width: 1px;
+		border-color: #cdcdcd;
+		padding: 0 0 10px 0 ;
+	}
+	.padd1{
+		padding: 10px 0 0 20px;
+	}
+	.padd2{
+		padding-right: 0px;
+	}
+	.padd3{
+		margin-left: -20px;
+		padding: 0 0 0 0;
+	}
+	.photo2{
+	height: 23px;
+	width: 23px;
+	margin-right: 10px;
+	}
+	.td1{
+		height: 20px;
+		line-height: 20px;
+	}
+	.photo3{
+		margin-top: -2px;
+	}
+	.table1{
+		width: 100%;
+		text-align: left;
+	}
+	.table2{
+		width: 100%;
+		text-align: center;
+	}
+}

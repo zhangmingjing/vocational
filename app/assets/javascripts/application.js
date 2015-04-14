@@ -12,8 +12,6 @@
 //
 //= require jquery
 //= require bootstrap-sprockets
-//= require mediaelement_rails/rails
-//= require mediaelement_rails
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .

@@ -8,8 +8,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  get '/teacher_6' => 'welcome#teacher_6'
-  get '/_navbar' => 'welcome#_navbar'
+  get 'welcome/teacher_6'
+  get 'welcome/_navbar'
   root 'welcome#index'
 
   # Example of regular route:

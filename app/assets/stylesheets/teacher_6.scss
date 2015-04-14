@@ -13,8 +13,6 @@
  	color: white;
  	background-color: rgba(0,0,0,0.1);
 }
-.photo1{
-}
 .press{
 	padding: 0px !important;
 	height: 34px;
@@ -24,4 +22,37 @@
 	padding-right: 85px !important;
 	width: 60% !important;
 	padding-top: 5px;
+}
+.photo{
+	width: 100%;
+	padding-left: 55px;
+}
+.word{
+	color: white;
+}
+.register{
+	padding-top: 8px;
+	color: white;
+	text-align: right;
+	line-height: 18px;
+	height: 18px;
+	padding-right: 70px;
+}
+
+.inset {
+  	border-style: none none solid none;
+	border-color:#cdcdcd;
+	border-width: 1px;
+}
+.inset2{
+  	border-style: none none solid none;
+	color:#5bcbdc;
+	font-size: 25px;
+  }
+
+.dash{
+	border-bottom-style:dashed;
+	border-color:#cdcdcd;
+	border-width: 1px;
+	padding-left: 40px;
 }

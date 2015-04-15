@@ -1,6 +1,9 @@
 .navbar{
 	border-radius: 0px !important;
 }
+.photo1{
+	padding-top: 2px;
+}
 .photo2{
 	background-image: url(main_6.png);
 	background-color: #000000;
@@ -68,4 +71,35 @@
 	border-radius: 0px !important;
 	height:45px;
 	width: 140px;
+}
+//teacher_grade_6
+ .inset3{
+  	border-style: none none solid none;
+	border-color:#cdcdcd;
+	border-width: 1px;
+	text-align: center;
+ }
+ .inset4{
+ 	border-style: none none solid none;
+	border-color:#5bcbdc;
+	font-size: 25px;
+ }
+ .grade{
+ 	font-size: 25px;
+ 	color:#5bcbdc;
+ 	padding-top: 10px;
+ }
+ .sprout2{
+ 	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 50px;
+ }
+ .btn{
+ 	border-radius: 0px !important;
+ }
+ .student{
+ 	text-align: center;
+ }
+th{
+	background-color:#5bcbdc;
 }

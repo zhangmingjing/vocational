@@ -1,9 +1,6 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.body1{
-	background-color: #ebebeb;
-}
 .backg{
 	background-color: #5bcbdc;
 	padding: 5px 50px 5px 50px;
@@ -32,9 +29,10 @@
 .logo {
     float: left;
 }
+
 .photo{
-	width:100%;
-	padding-left: 60px;
+	width: 100%;
+	padding-left: 55px;
 }
 .word{
 	color: white;
@@ -45,26 +43,13 @@
 	text-align: right;
 	line-height: 18px;
 	height: 18px;
-	padding-right: 85px;
+	padding-right: 70px;
 }
+
 .search{
 	float: right;
 	padding-top: 15px;
 	padding-right: 85px;
-}
-#scbar{
-	height: 25px;
-	background: none repeat scroll 0% 0% #FFF;
-}
-#scbar_txt{
-	border: medium none;
-	width: 135px;
-}
-#scbar_bn{
-	width: 25px;
-	height: 25px;
-	opacity: 0.5;
-	margin-top: 5px;
 }
 .division{
 	margin-top: -4px;
@@ -72,7 +57,8 @@
 	background-color: white;
 }
 .gray{
-
+	background-color: #ebebeb;
+	padding:0px 60px 0 60px;
 }
 .white{
 	background-color: white;
@@ -95,4 +81,44 @@
 .footerfont_2{
 	color:#848484;
 }
+
 .pic1{width: 100%;}
+.more{
+	text-align: right;
+	color:#5bcbdc;
+}
+.vidoes_topm{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.videotext{
+	color:#5bcbdc;
+	font-size: 27px;
+	position:relative; 
+    	left:-50px; 
+
+}
+.boxbg{
+	background:url(01_03.png) no-repeat;
+	background-size: 40%;
+	width:40px;
+	height:40px; 
+	font-size: 27px;
+	color:white;
+	position:relative; 
+    	left:20px; 
+
+}
+.video_img{
+	width:100%;
+}
+.video_title{
+	color:black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.video_futitle{
+	color: #848484;
+	font-size: 14px;
+	margin-top: 5px;
+}

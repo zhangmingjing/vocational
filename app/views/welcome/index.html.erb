@@ -1,100 +1,38 @@
-<div class="row">
-	<div class="col-ma-12 col-xs-12">
-		<div class="index-topbar-wrapper">
-			<div class="logo">
-				<%= image_tag "logo.png" , class:"photo "%></div>
-			<div class="register">
-				<span>
-					<a href="#" class="word">登录</a>
-				</span>
-				|
-				<span>
-					<a href="#" class="word">注册</a>
-				</span>
-			</div>
-			<div class="search">
-				<form role="search">
-					<div class="form-group" id="scbar">
-						<div class="col">
-							<input type="text" id="scbar_txt">
-							<a id="scbar_bn" class="glyphicon glyphicon-search icon-search"></a>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</div>
-
+<%= render :partial =>"navbar"%>
 <div class="division"></div>
 <div class="gray">
-	<div class="container white">
-		<!--内容-->
-		<div class="row">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				</ol>
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<%= image_tag "01_01.png", class:"pic1"%>
-						<div class="carousel-caption"></div>
-					</div>
-					<div class="item">
-						<%= image_tag "01_02.png", class:"pic1"%>
-						<div class="carousel-caption"></div>
-					</div>
-					<div class="item">
-						<%= image_tag "01_11.png", class:"pic1"%>
-						<div class="carousel-caption"></div>
-					</div>
-				</div>
-
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only"></span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only"></span>
-				</a>
-			</div>
-		</div>
-		<!--videos-->
-		<div class="row vidoes_topm">
-			<div class="col-md-1 col-xs-1 boxbg">1</div>
-			<div class="col-md-9 col-xs-9">
-				<div class="videotext">网络设备维护</div>
-			</div>
-			<div class="col-md-2 col-xs-2">
-				<%= link_to '更多', controller: 'courses' %>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-		</div>
-
-		<div class="row"></div>
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-		</div>
-
-		<hr class="divider">
-		<!--footer-->
-		<div class="footer center1">
-			<p class="footerfont_1">关于我们&nbsp;|&nbsp;联系我们</p>
-			<p class="footerfont_2">Copyright&nbsp;&copy;&nbsp;2014&nbsp;上海大唐移动通信设备有限公司</p>
-		</div>
+<div class="container white">
+<%= render :partial =>"carousel"%>
+<% (1..2).each do |index| %>
+<div class="row vidoes_topm">
+	<div class="col-md-1 col-xs-1 boxbg"><%=  "#{index}"  %></div>
+	<div class="col-md-9 col-xs-9">
+		<div class="videotext">
+		<%= @control["#{index}"][:text] %></div>
 	</div>
-  
+	<div class="col-md-2 col-xs-2 more">
+		<a href="">更多>></a>
+	</div>
+</div>
+<div class="row">
+<% (1..3).each do |ind|%>
+	<div class="col-md-4"><%= image_tag @control["#{index}"][:videomenu]["#{ind}"][:picture],class:"video_img" %>
+	<div class="video_title">
+		<%= @control["#{index}"][:videomenu]["#{ind}"][:title] %>
+	</div>
+	<div class="video_futitle">
+		<%= @control["#{index}"][:videomenu]["#{ind}"][:futitle] %>
+	</div></div>
+<% end %>
+</div>
+<%end%>
+<div class="row"></div>
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4"></div>
+	<div class="col-md-4"></div>
+</div>
+<hr class="divider">
+<%= render :partial =>"footer"%>
+</div>
 </div>

@@ -6,9 +6,11 @@ class VideosController < ApplicationController
   end
   def index
     @course = Course.find(params[:course_id])
-    @video = @course.videos.all
+
   end
-  
+  def edit
+    
+  end
     def show
       @course = Course.find(params[:course_id])
       

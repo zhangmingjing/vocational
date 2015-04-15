@@ -1,0 +1,40 @@
+
+<%= render :partial =>"navbar"%>
+
+<div class="division"></div>
+<div class="gray">
+<div class="container white">
+<%= render :partial =>"carousel"%>
+<% (1..2).each do |index| %>
+<div class="row vidoes_topm">
+	<div class="col-md-1 col-xs-1 boxbg"><%=  "#{index}"  %></div>
+	<div class="col-md-9 col-xs-9">
+		<div class="videotext">
+		<%= @control["#{index}"][:text] %></div>
+	</div>
+	<div class="col-md-2 col-xs-2 more">
+		<a href="">更多>></a>
+	</div>
+</div>
+<div class="row">
+<% (1..3).each do |ind|%>
+	<div class="col-md-4"><%= image_tag @control["#{index}"][:videomenu]["#{ind}"][:picture],class:"video_img" %>
+	<div class="video_title">
+		<%= @control["#{index}"][:videomenu]["#{ind}"][:title] %>
+	</div>
+	<div class="video_futitle">
+		<%= @control["#{index}"][:videomenu]["#{ind}"][:futitle] %>
+	</div></div>
+<% end %>
+</div>
+<%end%>
+<div class="row"></div>
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4"></div>
+	<div class="col-md-4"></div>
+</div>
+<hr class="divider">
+<%= render :partial =>"footer"%>
+</div>
+</div>

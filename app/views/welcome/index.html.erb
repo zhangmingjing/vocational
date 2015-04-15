@@ -1,10 +1,9 @@
-
-<%= render :partial =>"navbar"%>
+<%= render 'navbar' %>
 
 <div class="division"></div>
 <div class="gray">
 <div class="container white">
-<%= render :partial =>"carousel"%>
+<%= render  'carousel' %>
 <% (1..2).each do |index| %>
 <div class="row vidoes_topm">
 	<div class="col-md-1 col-xs-1 boxbg"><%=  "#{index}"  %></div>
@@ -35,6 +34,6 @@
 	<div class="col-md-4"></div>
 </div>
 <hr class="divider">
-<%= render :partial =>"footer"%>
+<%= render 'footer' %>
 </div>
 </div>

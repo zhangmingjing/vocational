@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'welcome/test_4_2'
   get 'welcome/test_5_1'
   get 'welcome/show'
+  get 'welcome/teacher_6'
+  get 'welcome/teacher_grade_6'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

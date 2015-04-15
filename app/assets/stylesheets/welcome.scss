@@ -1,6 +1,26 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.backg{
+	background-color: #5bcbdc;
+	padding: 5px 50px 5px 50px;
+	.photo{
+	width: 100%;
+	height: 100%;
+	}
+	.center1{
+		text-align: right;
+	}
+	.color1{
+		color: white;
+	}
+	.color2{
+		color: #5bcbdc;
+	}
+	.search1{
+		background-color:  #ddf8fc;
+	}
+}
 
 .division{
 	margin-top: -4px;
@@ -32,6 +52,44 @@
 .footerfont_2{
 	color:#848484;
 }
-.pic1{width: 100%;}
 
+.pic1{width: 100%;}
+.more{
+	text-align: right;
+	color:#5bcbdc;
+}
+.vidoes_topm{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.videotext{
+	color:#5bcbdc;
+	font-size: 27px;
+	position:relative; 
+    	left:-50px; 
+}
+.boxbg{
+	background:url(01_03.png) no-repeat;
+	background-size: 40%;
+	width:40px;
+	height:40px; 
+	font-size: 27px;
+	color:white;
+	position:relative; 
+    	left:20px; 
+
+}
+.video_img{
+	width:100%;
+}
+.video_title{
+	color:black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.video_futitle{
+	color: #848484;
+	font-size: 14px;
+	margin-top: 5px;
+}
 

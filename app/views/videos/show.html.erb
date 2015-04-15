@@ -1,0 +1,12 @@
+<h2>Videos</h2>
+<% @course.videos.each do |video| %>
+  <p>
+    <strong>cname:</strong>
+    <%= video.vname %>
+  </p>
+
+  <p>
+    <strong>video:</strong>
+    <%= video.body %>
+  </p>
+<% end %>

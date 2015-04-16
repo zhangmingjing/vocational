@@ -4,28 +4,31 @@
 <div class="gray">
 <div class="container white">
 <%= render  'carousel' %>
-<% (1..2).each do |index| %>
+<% i = 1 %>
+<% @courses.each do |index| %>
 <div class="row vidoes_topm">
-	<div class="col-md-1 col-xs-1 boxbg"><%=  "#{index}"  %></div>
+	<div class="col-md-1 col-xs-1 boxbg"><%=  i  %></div>
 	<div class="col-md-9 col-xs-9">
 		<div class="videotext">
-		sddsdf</div>
+		<%= index.title %></div>
 	</div>
 	<div class="col-md-2 col-xs-2 more">
 		<a href="">更多>></a>
 	</div>
 </div>
 <div class="row">
-<% (1..3).each do |ind|%>
-	<div class="col-md-4">sdfsdf
+<% index.vios.each do |ind|%>
+	<div class="col-md-4">
+		<%= image_tag ind.imagename %>
 	<div class="video_title">
-		sfdhsfghfdgh
+		<%= index.title %>&nbsp&nbsp&nbsp&nbsp akdskjfk
 	</div>
 	<div class="video_futitle">
-		fgjghjfg
+		<%= ind.title %>
 	</div></div>
 <% end %>
 </div>
+<% i = i + 1 %>
 <%end%>
 <div class="row"></div>
 <div class="row">

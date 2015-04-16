@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index
+            @courses = Course.all
   end
 
   def test_4_2

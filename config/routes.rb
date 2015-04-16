@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :courses do
+  resources :vios
+end
   get 'welcome/index'
   get 'welcome/test_4_1'
   get 'welcome/test_4_2'

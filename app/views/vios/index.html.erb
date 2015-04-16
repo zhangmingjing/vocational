@@ -1,0 +1,17 @@
+<h1>Listing courses</h1>
+<%= link_to 'New course', new_course_path %>
+<table>
+                <tr>
+                                <th>Imagename</th>
+                                <th>Title</th>
+                                <th>Text</th>
+                </tr>
+
+                <% @vios.each do |vio| %>
+                <tr>
+                                <td><%= vio.imagename %></td>
+                                <td><%= vio.title %></td>
+                                <td><%= vio.text %></td>
+                </tr>
+                <% end %>
+</table>

@@ -1,0 +1,24 @@
+<p>
+	<strong>Imagename:</strong>
+	<%= @course.imagename %>
+</p>
+
+<p>
+	<strong>Title:</strong>
+	<%= @course.title %>
+</p>
+
+<p>
+	<strong>Text:</strong>
+	<%= @course.text %>
+</p>
+
+<h2>Vios</h2>
+<%= render @course.vios %>
+
+<h2>Add a vio:</h2>
+
+<%= render "vios/form" %>
+
+<%= link_to 'Back', courses_path %>
+<%= link_to 'Edit', edit_course_path(@course) %>

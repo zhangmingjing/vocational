@@ -1,0 +1,20 @@
+<p>
+	<strong>Imagename:</strong>
+	<%= vio.imagename %>
+</p>
+
+<p>
+	<strong>Title:</strong>
+	<%= vio.title %>
+</p>
+
+<p>
+	<strong>Text:</strong>
+	<%= vio.text %>
+</p>
+
+<p>
+  	<%= link_to 'Destroy Vio', [vio.course, vio],
+               		method: :delete %>
+	<%= link_to 'list Vio', course_vios_path(vio.course) %>
+</p>
